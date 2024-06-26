@@ -8,7 +8,7 @@ const ProductItem = ({ product, onRemove, onApplyDiscount, onEdit }) => {
 
   return (
     <div>
-      <input type="text" value={product.name} placeholder="Product Name" readOnly />
+      <input type="text" value={product.name} placeholder="Product Name"  />
       <button onClick={onRemove}>Remove</button>
       <button onClick={onEdit}>Edit</button>
       <input type="number" placeholder="Discount" onChange={handleDiscountChange} />
