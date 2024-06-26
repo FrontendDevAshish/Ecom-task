@@ -1,8 +1,8 @@
 import './App.css';
-
+import AddProductButton from './Components/ProductButton';
 function App() {
   return (
-    <h1>products</h1>
+    <AddProductButton/>
   );
 }
 
